@@ -1,0 +1,12 @@
+.unit-content {
+    font-family: -apple-system, 'Segoe UI', 'Avenir', sans-serif, arial;
+    letter-spacing: .04rem;
+    line-height: 2;
+    font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+}

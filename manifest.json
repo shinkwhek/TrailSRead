@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Trailhead Smart Read",
+    "short_name": "TrailSRead",
+    "version": "0.0.1",
+    "description": "a extention for Google Chrome that make a page readable.",
+
+    "content_scripts": [
+        {
+            "matches": [ "https://trailhead.salesforce.com/ja/content/learn/*" ],
+            "css": ["content.css"]
+        }
+    ]
+}
