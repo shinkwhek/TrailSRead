@@ -7,7 +7,7 @@
 
     "content_scripts": [
         {
-            "matches": [ "https://trailhead.salesforce.com/ja/content/learn/*" ],
+            "matches": [ "https://trailhead.salesforce.com/*" ],
             "css": ["content.css"]
         }
     ]
